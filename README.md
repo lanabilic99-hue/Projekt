@@ -1,52 +1,81 @@
-# 2 Ribara
+# 2 Ribara - Dalmatinski Restoran
 
-Klasičan dalmatinski restoran sa 50 godina tradicije. Autentična riblјa jela, morske delicije i domatće recepte direktno sa Jadrana.
+Elegantna web stranica za tradicionalni dalmatinski restoran "2 Ribara" sa 50 godina tradicije. Sadrži informacije o restoranu, meni s 20+ specijaliteta, te mogućnost rezervacije stola. Predstavlja autentičnu kuhinju s fokusom na morske specijalitete i obiteljsku tradiciju.
 
-## Struktura Projekta
-
-```
-restoran web/
-├── index.html          # Početna stranica
-├── meni.html           # Stranica sa menijem
-├── o-nama.html         # Stranica sa informacijama o restoranu
-├── kontakt.html        # Stranica sa kontakt formom
-├── css/
-│   └── style.css       # CSS stilovi
-├── js/
-│   └── script.js       # JavaScript funkcionalnost
-└── README.md           # Dokumentacija
-```
+## Live Demo
+https://2-ribara.netlify.app/
 
 ## Stranice
+- **index.html** - Naslovnica - Hero sekcija s logom i valovitim linijama, tri glavne karakteristike restorana, galerije s fotografijama, informacije o lokaciji
+- **meni.html** - Meni restorana - 20+ jela organizirano u 4 kategorije (Predjela, Tjestenine i Rižota, Riblja jela, Mesna jela)
+- **o-nama.html** - O nama - Priča restorana, misija, tim, principi, radno vrijeme, galerija kroz vrijeme
+- **kontakt.html** - Kontakt i rezervacije - Rezervacijska forma, kontakt forma, informacije o restoranu i radno vrijeme
 
-### index.html
-Početna stranica sa dobrodošlicom i informacijama o 2 Ribara.
-- Hero sekcija sa pripoikom
-- Karakteristike restorana
-- Preview menija
-- Informacije o radnom vremenu i lokaciji
+## Dizajn
+- **Boje**: Navy #0f2735, Beež-Zlatna #d9c896, Bijela #ffffff, Gold #d4af37
+- **Fontovi**: Georgia, Garamond serif (elegantna mediteranska estetika)
+- **Responsive dizajn**: Optimizovano za 480px (mobilni), 768px (tablet), 1200px+ (desktop)
+- **Logo**: "2 RIBARA" s modernim valovitim linijama ispod teksta
+- **Galerije**: Fotografije jela, ambijenta i tima restorana
 
-### meni.html
-Prikazuje meni 2 Ribara sa različitim kategorijama jela i cenama.
-- Dinamički filter po kategorijama (Predjela, Glavna jela, Deserta, Piće, Vegetarijansko)
-- Detaljne informacije o svakom jelu
+## Tehnologije
+- **Frontend**: HTML5, CSS3 (Flexbox, CSS Grid, CSS varijable, animacije), JavaScript (vanilla)
+- **Hosting**: Netlify (automatski deployment iz GitHub-a)
+- **Version Control**: Git, GitHub (lanabilic99-hue/Projekt)
+- **Icons/SEO**: Open Graph metapodaci, responsive viewport meta tag
 
-### o-nama.html
-Detaljne informacije o 2 Ribara: historija od 1976, misija, tim i principi.
-- Priča o osnivanju restorana 1976. godine
-- Naši principi i vrednosti
-- Radno vreme
+## Fajlovi Projekta
+```
+restoran-web/
+├── index.html                 # Naslovnica
+├── meni.html                  # Meni restorana
+├── o-nama.html                # O restoranu
+├── kontakt.html               # Kontakt i rezervacije
+├── css/
+│   └── style.css              # Kompletan CSS (1000+ linija)
+├── js/
+│   └── script.js              # Vanilla JavaScript
+├── images/                    # 9 fotografija restorana
+│   ├── izvana.jpg
+│   ├── interijer.jpg
+│   ├── osoblje.jpg
+│   ├── atmosfera.jpg
+│   ├── riba.jpg
+│   ├── rižot.jpg
+│   ├── tjestenina.jpg
+│   ├── biftek.jpg
+│   └── logo.png
+├── README.md                  # Ovaj file
+└── .gitignore                 # Git ignore pravila
+```
 
-### kontakt.html
-Kontakt informacije, rezervacijska forma i forma za slanje poruka.
-- Rezervacijska forma sa datumom, vremenom i brojem gostiju
-- Kontakt forma sa tematskim opcijama
+## Karakteristike
+✨ **Responsive Design** - Perfektno radi na svim uređajima
+🎨 **Luxury Mediterranean Estetika** - Premium dizajn za restoran
+🖼️ **Galerije** - Kvalitetne fotografije jela i ambijenta
+📱 **Mobile-First** - Optimizovano prvo za mobilne uređaje
+♿ **Semantički HTML** - Dostupan i SEO-optimizovan
+🎭 **Hladne Animacije** - Fade in, slide in efekti
+📋 **Meni s Filteringom** - JavaScript filteriranje po kategorijama
+📧 **Kontakt Forme** - Rezervacija i poruke
 
-## Korišćeni Tehnologiji
+## Autor
+**Lana Bilić**
+- UNIZD - Kultura i turizam / Digitalni kolegij
+- Akademska godina: 2025./2026.
 
-- **HTML5** - Struktura stranica sa SEO meta tagovima
-- **CSS3** - Dizajn i stilovi (responzivan design, plava boja tema)
-- **JavaScript** - Interaktivnost i filtering
+## Licenca
+Projekt je dostupan za edukativne i komercijalne svrhe.
+
+---
+
+**Zadnja ažuriranja:**
+- ✅ Logo sa valovitim linijama
+- ✅ Kompletan meni sa 20+ jela
+- ✅ Ispravljena gramatika i standardni hrvatski jezik
+- ✅ Responsivni dizajn (480px, 768px, 1200px)
+- ✅ GitHub repozitorijum
+- ✅ Netlify deployment
 
 ## Svojstva
 

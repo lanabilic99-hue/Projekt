@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Kontakt | 2 Ribara</title>
+    <meta name="description" content="Kontaktirajte nas ili napravite rezervaciju u 2 Ribara. Pozovite nas ili popunite formu.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kontakt - 2 Ribara">
+    <meta property="og:description" content="Kontaktirajte 2 Ribara za rezervacije i informacije.">
+    <meta property="og:type" content="website">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>2 Ribara</h1>
+        <p class="tagline">Autentična dalmatinska kulinarska iskustva</p>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="meni.html">Meni</a></li>
+                <li><a href="o-nama.html">O nama</a></li>
+                <li><a href="kontakt.html" class="active">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Kontaktirajte nas</h2>
+        
+        <section class="contact-info-section">
+            <div class="contact-info">
+                <h3>Informacije</h3>
+                <p><strong>Telefon:</strong> <a href="tel:+38523123456">+385 23 123 456</a></p>
+                <p><strong>Email:</strong> <a href="mailto:info@2ribara.hr">info@2ribara.hr</a></p>
+                <p><strong>Adresa:</strong> Ul. Blaža Jurjeva 1, 23000 Zadar</p>
+
+                <h3>Radno vrijeme</h3>
+                <ul>
+                    <li><strong>Ponedjeljak - Petak:</strong> 12:00 - 23:00</li>
+                    <li><strong>Subota:</strong> 13:00 - 24:00</li>
+                    <li><strong>Nedjelja:</strong> 13:00 - 23:00</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="forms-container">
+            <!-- Rezervacijska forma -->
+            <div class="form-wrapper">
+                <h3>Napravi Rezervaciju</h3>
+                <form id="reservationForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="rez-ime">Ime i prezime:</label>
+                        <input type="text" id="rez-ime" name="ime" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rez-email">Email:</label>
+                        <input type="email" id="rez-email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rez-telefon">Telefon:</label>
+                        <input type="tel" id="rez-telefon" name="telefon" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rez-datum">Datum:</label>
+                        <input type="date" id="rez-datum" name="datum" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rez-vreme">Vrijeme:</label>
+                        <input type="time" id="rez-vreme" name="vreme" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rez-gosti">Broj gostiju:</label>
+                        <select id="rez-gosti" name="gosti" required>
+                            <option value="">-- Odaberi broj --</option>
+                            <option value="1">1 gost</option>
+                            <option value="2">2 gosta</option>
+                            <option value="3">3 gosta</option>
+                            <option value="4">4 gosta</option>
+                            <option value="5">5 gostiju</option>
+                            <option value="6">6 gostiju</option>
+                            <option value="8">8 gostiju</option>
+                            <option value="10">10+ gostiju</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rez-napomene">Posebne napomene:</label>
+                        <textarea id="rez-napomene" name="napomene" rows="3" placeholder="Npr. Alergije, posebne želje..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Rezerviši Sto</button>
+                </form>
+            </div>
+
+            <!-- Kontakt forma -->
+            <div class="form-wrapper">
+                <h3>Pošalji nam poruku</h3>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="ime">Ime:</label>
+                        <input type="text" id="ime" name="ime" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefon">Telefon:</label>
+                        <input type="tel" id="telefon" name="telefon">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tema">Tema:</label>
+                        <select id="tema" name="tema" required>
+                            <option value="">-- Odaberi temu --</option>
+                            <option value="opca-pitanja">Opća pitanja</option>
+                            <option value="privatna-zabava">Privatna zabava</option>
+                            <option value="suradnja">Suradnja</option>
+                            <option value="problem">Problem</option>
+                            <option value="drugo">Drugo</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="poruka">Poruka:</label>
+                        <textarea id="poruka" name="poruka" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Pošalji Poruku</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 1976-2026 2 Ribara</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
